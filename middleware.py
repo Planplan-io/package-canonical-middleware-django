@@ -2,9 +2,6 @@ from django.utils.deprecation import MiddlewareMixin
 from django.utils.cache import patch_vary_headers
 from django.http import HttpRequest, HttpResponse
 
-from django.utils.text import compress_string
- 
-
 class CannonicalMiddleware(MiddlewareMixin):
     def __init__(self, get_response):
         super().__init__(get_response)

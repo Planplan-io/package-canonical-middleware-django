@@ -5,6 +5,6 @@
 <p>Pour mettre en fonction cet élément vous devez ajoutez la ligne suivante dans votre setting django</p>
 
 MIDDLEWARE = [
-    'planplan.middleware.CanonicalMiddleware',
+    'package-canonical-middleware-django.middleware.CanonicalMiddleware',
     ...
     ]

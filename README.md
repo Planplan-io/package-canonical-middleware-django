@@ -6,5 +6,7 @@
 
 MIDDLEWARE = [
     'package-canonical-middleware-django.middleware.CanonicalMiddleware',...]
+    
+ <h2>Liste des référentiels</h2>
 
 <a hrefs="https://djangopackages.org/packages/p/package-canonical-middleware-django/">https://djangopackages.org/packages/p/package-canonical-middleware-django/</a>

@@ -9,7 +9,7 @@ sys.path.append(os.path.abspath(".."))
 project = "package-canonical-middleware-django "
 author = "Planplan"
 copyright = "2023," + author
-version = __import__("package-canonical-middleware-django ").__version__
+#version = __import__("package-canonical-middleware-django ").__version__
 release = subprocess.check_output(
     "git fetch --tags; git describe --always", shell=True, text=True
 ).strip()

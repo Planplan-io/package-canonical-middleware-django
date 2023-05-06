@@ -1,1 +1,1 @@
-requirement.txt
+Django==3.9.1
